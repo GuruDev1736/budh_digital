@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "966670308026",
+    "firebase_url": "https://press-application-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "press-application",
+    "storage_bucket": "press-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966670308026:android:649b98c7fd9f74d6896883",
+        "android_client_info": {
+          "package_name": "com.naturexpresscargo.pressapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiNbEdzSWMZLjn4mRetovpk2Kk3p3Lx6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

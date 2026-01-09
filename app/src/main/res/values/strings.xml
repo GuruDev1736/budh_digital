@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Budh Digital</string>
+
+    <string name="fitness_club">BUDH DIGITAL</string>
+
+    <string name="hello">Hello</string>
+    <string name="sign_in">Sign in!</string>
+    <string name="gmail">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in_btn">SIGN IN</string>
+    <string name="dont_have_account">Don\'t have account?</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_up_btn">SIGN UP</string>
+    <string name="login_with_social_media">Login with Social Media</string>
+
+    <string name="create_your_account">Create Your Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_or_gmail">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account_sign_in">Don\'t have account?</string>
+    <string name="sign_in_link">Sign In</string>
+
+    <string name="email_placeholder">Enter Email</string>
+    <string name="name_placeholder">Enter Name</string>
+    <string name="password_dots">Enter Password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
+

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PressApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/gradient_purple</item>
+        <item name="colorPrimaryVariant">@color/dark_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.PressApp" parent="Base.Theme.PressApp" />
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemIconTint">@color/nav_item_icon_color</item>
+        <item name="itemTextColor">@color/nav_item_text_color</item>
+        <item name="itemBackground">@drawable/nav_item_background</item>
+        <item name="itemShapeFillColor">@color/gradient_purple</item>
+        <item name="itemRippleColor">@color/gradient_purple</item>
+        <item name="itemHorizontalPadding">16dp</item>
+        <item name="itemVerticalPadding">8dp</item>
+        <item name="android:background">@color/dark_background</item>
+    </style>
+
+    <style name="CustomDatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/gradient_purple</item>
+        <item name="colorPrimaryVariant">@color/gradient_purple</item>
+
+        <!-- Dialog background -->
+        <item name="colorSurface">@color/white</item>
+
+        <!-- Text & icons -->
+        <item name="colorOnPrimary">@color/dark_background</item>
+        <item name="colorOnSurface">@color/dark_background</item>
+
+        <!-- Buttons (OK / CANCEL) -->
+        <item name="colorAccent">@color/gradient_purple</item>
+
+        <!-- Date numbers -->
+        <item name="android:textColorPrimary">@color/dark_background</item>
+        <item name="android:textColorSecondary">@color/dark_background</item>
+    </style>
+
+</resources>

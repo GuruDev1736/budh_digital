@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_red">#343F3E</color>
+    <color name="primary_purple">#343F3E</color>
+    <color name="gradient_red">#343F3E</color>
+    <color name="gradient_purple">#9FB8A3</color>
+    <color name="text_gray">#9E9E9E</color>
+    <color name="text_field_bg">#F5F5F5</color>
+    <color name="accent_pink">#9FB8A3</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="dark_background">#343F3E</color>
+    <color name="drawer_text">#FFFFFF</color>
+    <color name="service_blue">#3B82F6</color>
+    <color name="service_purple">#8B5CF6</color>
+    <color name="service_green">#10B981</color>
+    <color name="service_orange">#F59E0B</color>
+    <color name="service_red">#EF4444</color>
+    <color name="status_in_progress">#3B82F6</color>
+    <color name="status_completed">#10B981</color>
+    <color name="status_draft">#6B7280</color>
+    <color name="status_pending">#EF4444</color>
+    <color name="status_delivered">#10B981</color>
+</resources>
+
