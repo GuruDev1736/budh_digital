@@ -16,14 +16,15 @@
             android:title="History" />
 
         <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_forum"
+            android:title="Forums" />
+
+        <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_profile"
             android:title="Profile" />
 
-        <item
-            android:id="@+id/nav_forum"
-            android:icon="@drawable/ic_forum"
-            android:title="Forums" />
 
     </group>
 

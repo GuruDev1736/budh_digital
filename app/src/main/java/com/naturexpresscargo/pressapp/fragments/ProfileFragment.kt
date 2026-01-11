@@ -102,15 +102,15 @@ class ProfileFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        binding.cardTermsConditions.setOnClickListener {
+        binding.cardVisitWebsite.setOnClickListener {
             val intent = Intent(requireContext(), PrivacyPolicyActivity::class.java)
             intent.putExtra(
                 PrivacyPolicyActivity.EXTRA_URL,
-                PrivacyPolicyActivity.TERMS_CONDITIONS_URL
+                "https://budh-digital.anjamhelp.org"
             )
             intent.putExtra(
                 PrivacyPolicyActivity.EXTRA_TITLE,
-                "Terms and Conditions"
+                "Budh Digital"
             )
             startActivity(intent)
         }

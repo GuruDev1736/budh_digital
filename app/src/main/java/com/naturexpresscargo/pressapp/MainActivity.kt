@@ -2,6 +2,7 @@ package com.naturexpresscargo.pressapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.FrameLayout
 import android.widget.TextView
@@ -114,6 +115,28 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             windowInsets
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_website -> {
+                openWebsite()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    private fun openWebsite() {
+        val intent = Intent(this, PrivacyPolicyActivity::class.java)
+        intent.putExtra(PrivacyPolicyActivity.EXTRA_URL, "https://budh-digital.anjamhelp.org")
+        intent.putExtra(PrivacyPolicyActivity.EXTRA_TITLE, "Budh Digital")
+        startActivity(intent)
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

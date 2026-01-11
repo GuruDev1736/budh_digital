@@ -85,7 +85,7 @@
                 android:textStyle="bold" />
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardTermsConditions"
+                android:id="@+id/cardVisitWebsite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
@@ -112,7 +112,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_weight="1"
-                        android:text="Terms and Conditions"
+                        android:text="Visit Website"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
 
