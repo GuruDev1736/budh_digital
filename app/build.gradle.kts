@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.naturexpresscargo.pressapp"
+    namespace = "com.budhdigital.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.naturexpresscargo.pressapp"
+        applicationId = "com.budhdigital.app"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

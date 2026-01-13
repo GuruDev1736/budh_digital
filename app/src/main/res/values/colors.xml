@@ -22,5 +22,6 @@
     <color name="status_draft">#6B7280</color>
     <color name="status_pending">#EF4444</color>
     <color name="status_delivered">#10B981</color>
+    <color name="dark_green">#006400</color>
 </resources>
 

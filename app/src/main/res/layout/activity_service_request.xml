@@ -274,9 +274,10 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_background"
                 android:layout_marginTop="32dp"
-                android:background="@drawable/rounded_button"
+                android:padding="15dp"
                 android:text="Submit Request"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
