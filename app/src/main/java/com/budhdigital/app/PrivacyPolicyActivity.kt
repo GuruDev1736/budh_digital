@@ -14,7 +14,7 @@ class PrivacyPolicyActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_URL = "extra_url"
         const val EXTRA_TITLE = "extra_title"
-        const val PRIVACY_POLICY_URL = "https://budh-digital.anjamhelp.org/privacy-policy/"
+        const val PRIVACY_POLICY_URL = "https://budhofdigital.in/privacy-policy"
         const val TERMS_CONDITIONS_URL = "https://budh-digital.anjamhelp.org/terms-and-conditions/"
     }
 

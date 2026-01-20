@@ -106,7 +106,7 @@ class ProfileFragment : Fragment() {
             val intent = Intent(requireContext(), PrivacyPolicyActivity::class.java)
             intent.putExtra(
                 PrivacyPolicyActivity.EXTRA_URL,
-                "https://budh-digital.anjamhelp.org"
+                "https://budhofdigital.in/"
             )
             intent.putExtra(
                 PrivacyPolicyActivity.EXTRA_TITLE,

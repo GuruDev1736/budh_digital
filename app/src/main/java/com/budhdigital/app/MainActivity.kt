@@ -134,7 +134,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     private fun openWebsite() {
         val intent = Intent(this, PrivacyPolicyActivity::class.java)
-        intent.putExtra(PrivacyPolicyActivity.EXTRA_URL, "https://budh-digital.anjamhelp.org")
+        intent.putExtra(PrivacyPolicyActivity.EXTRA_URL, "https://budhofdigital.in")
         intent.putExtra(PrivacyPolicyActivity.EXTRA_TITLE, "Budh Digital")
         startActivity(intent)
     }
